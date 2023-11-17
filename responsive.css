@@ -1,0 +1,58 @@
+@media (width >= 1440px){
+    body{
+        background-image: none;
+        background-image: url(./assets/Group\ 10\ \(5\).svg);
+        background-color: #fff;
+    }
+
+    .main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container{
+        margin-top: 50px;
+    }
+
+    .box2{
+        width: 350px;
+        height: 580px;
+    }
+
+    .box{
+        position: relative;
+        left: 47px;
+        border-radius: 10px 0 0 10px;
+    }
+    .box3{
+        position: relative;
+        right: 48px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .box button:hover{
+        background: white;
+        border: 1px solid black;
+        transition: 0.4s;
+        color: black;
+    }
+    .box3 button:hover{
+        background: white;
+        border: 1px solid black;
+        transition: 0.4s;
+        color: black;
+    }
+    .box2 button:hover{
+        background: none;
+        border: 1px solid white;
+        transition: 0.1s;
+        color: white;
+    }
+
+}
+
+@media(width < 1440px){
+    footer{
+        display: none;
+    }
+}
