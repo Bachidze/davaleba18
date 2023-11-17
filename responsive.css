@@ -48,6 +48,11 @@
         transition: 0.1s;
         color: white;
     }
+    
+
+    h4{
+        color: #4A4D60;
+    }
 
 }
 
