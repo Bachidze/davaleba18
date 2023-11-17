@@ -1,8 +1,8 @@
 let toggle = document.querySelector('.inside')
 let price = document.querySelectorAll('h1')
-let fasi = 10
+let fasi = 19.9
 toggle.addEventListener('click',()=>{
-    if(fasi < 12){
+    if(fasi < 40){
         console.log('shemodis')
         fasi *= 10
     }else{
